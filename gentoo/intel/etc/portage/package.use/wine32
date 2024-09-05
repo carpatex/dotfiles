@@ -1,0 +1,325 @@
+>=dev-libs/libgcrypt-1.11.0 abi_x86_32
+# required by app-emulation/wine-proton-9.0.2::gentoo
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/vulkan-loader-1.3.290.0 abi_x86_32
+# required by media-libs/libsdl2-2.30.3::gentoo[X]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/libXcursor-1.2.2 abi_x86_32
+# required by x11-libs/gtk+-3.24.42-r1::gentoo[X]
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/libXi-1.8.1 abi_x86_32
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/libsdl2-2.30.3 abi_x86_32
+# required by dev-libs/nettle-3.10::gentoo[gmp]
+# required by net-libs/gnutls-3.8.7.1-r1::gentoo
+# required by app-emulation/wine-proton-9.0.2::gentoo[ssl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=dev-libs/gmp-6.3.0-r1 abi_x86_32
+# required by app-emulation/wine-proton-9.0.2::gentoo[ssl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=net-libs/gnutls-3.8.7.1-r1 abi_x86_32
+# required by app-emulation/wine-proton-9.0.2::gentoo[xcomposite]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/libXcomposite-0.4.6 abi_x86_32
+# required by media-video/pipewire-1.2.2::gentoo[pipewire-alsa]
+# required by media-libs/libsdl2-2.30.3::gentoo[pipewire]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/alsa-lib-1.2.12 abi_x86_32
+# required by media-plugins/gst-plugins-vaapi-1.22.11-r1::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[vaapi]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/gst-plugins-base-1.22.11-r1 abi_x86_32
+# required by media-libs/gst-plugins-bad-1.22.11-r1::gentoo
+# required by media-plugins/gst-plugins-vaapi-1.22.11-r1::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[vaapi]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/gstreamer-1.22.11 abi_x86_32
+# required by app-emulation/wine-proton-9.0.2::gentoo[unwind,-llvm-libunwind]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=sys-libs/libunwind-1.8.1 abi_x86_32
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-plugins/gst-plugins-meta-1.20.6 abi_x86_32
+# required by x11-misc/xdg-utils-1.2.1-r6::gentoo
+# required by app-eselect/eselect-wine-2.0.2-r2::gentoo[xdg]
+# required by app-emulation/wine-desktop-common-20150204-r1::gentoo
+# required by app-emulation/wine-proton-9.0.2::gentoo
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=app-text/xmlto-0.0.28-r11 text
+# required by media-plugins/gst-plugins-pulse-1.22.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[pulseaudio]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/gst-plugins-good-1.22.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[flac]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-plugins/gst-plugins-flac-1.22.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[pulseaudio]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-plugins/gst-plugins-pulse-1.22.11 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[vaapi]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-plugins/gst-plugins-vaapi-1.22.11-r1 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[x264]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-plugins/gst-plugins-x264-1.22.11 abi_x86_32
+# required by media-plugins/gst-plugins-x264-1.22.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[x264]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/x264-0.0.20231114-r1 abi_x86_32
+# required by media-plugins/gst-plugins-x264-1.22.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[x264]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/gst-plugins-ugly-1.22.11 abi_x86_32
+# required by media-plugins/gst-plugins-vaapi-1.22.11-r1::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[vaapi]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/gst-plugins-bad-1.22.11-r1 abi_x86_32
+# required by media-libs/gst-plugins-bad-1.22.11-r1::gentoo[orc]
+# required by media-plugins/gst-plugins-vaapi-1.22.11-r1::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[vaapi]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=dev-lang/orc-0.4.38 abi_x86_32
+# required by gnome-base/librsvg-2.58.2::gentoo
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/pango-1.52.2 abi_x86_32
+# required by media-libs/gst-plugins-base-1.22.11-r1::gentoo[X]
+# required by media-libs/gst-plugins-good-1.22.11::gentoo
+# required by media-plugins/gst-plugins-flac-1.22.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[flac]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/libXv-1.0.12 abi_x86_32
+# required by media-libs/gst-plugins-base-1.22.11-r1::gentoo[gles2,opengl]
+# required by media-libs/gst-plugins-good-1.22.11::gentoo
+# required by media-plugins/gst-plugins-flac-1.22.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[flac]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/graphene-1.10.8-r1 abi_x86_32
+# required by media-libs/gst-plugins-base-1.22.11-r1::gentoo[gles2,opengl]
+# required by media-libs/gst-plugins-good-1.22.11::gentoo
+# required by media-plugins/gst-plugins-flac-1.22.11::gentoo
+# required by media-plugins/gst-plugins-meta-1.20.6::gentoo[flac]
+# required by app-emulation/wine-proton-9.0.2::gentoo[gstreamer]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/libjpeg-turbo-3.0.3-r1 abi_x86_32
+# required by x11-libs/pango-1.52.2::gentoo
+# required by gnome-base/librsvg-2.58.2::gentoo
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=dev-libs/fribidi-1.0.13 abi_x86_32
+# required by x11-libs/pango-1.52.2::gentoo
+# required by gnome-base/librsvg-2.58.2::gentoo
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/harfbuzz-9.0.0 abi_x86_32
+# required by gnome-base/librsvg-2.58.2::gentoo
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/cairo-1.18.0 abi_x86_32
+# required by x11-libs/pango-1.52.2::gentoo[X]
+# required by gnome-base/librsvg-2.58.2::gentoo
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/libXft-2.3.8 abi_x86_32
+# required by x11-libs/cairo-1.18.0::gentoo
+# required by gnome-base/librsvg-2.58.2::gentoo
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=dev-libs/lzo-2.10 abi_x86_32
+# required by x11-libs/cairo-1.18.0::gentoo
+# required by gnome-base/librsvg-2.58.2::gentoo
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/pixman-0.43.4 abi_x86_32
+# required by media-libs/harfbuzz-9.0.0::gentoo[graphite]
+# required by gnome-base/librsvg-2.58.2::gentoo
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-gfx/graphite2-1.3.14_p20210810-r3 abi_x86_32
+# required by net-libs/gnutls-3.8.7.1-r1::gentoo
+# required by app-emulation/wine-proton-9.0.2::gentoo[ssl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=dev-libs/libtasn1-4.19.0 abi_x86_32
+# required by net-dns/libidn2-2.3.7::gentoo
+# required by net-libs/gnutls-3.8.7.1-r1::gentoo[idn]
+# required by app-emulation/wine-proton-9.0.2::gentoo[ssl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=dev-libs/libunistring-1.2 abi_x86_32
+# required by net-libs/gnutls-3.8.7.1-r1::gentoo
+# required by app-emulation/wine-proton-9.0.2::gentoo[ssl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=dev-libs/nettle-3.10 abi_x86_32
+# required by net-libs/gnutls-3.8.7.1-r1::gentoo[idn]
+# required by app-emulation/wine-proton-9.0.2::gentoo[ssl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=net-dns/libidn2-2.3.7 abi_x86_32
+# required by media-libs/libsdl2-2.30.3::gentoo[pipewire]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-video/pipewire-1.2.2 abi_x86_32
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=gui-libs/libdecor-0.2.2-r1 abi_x86_32
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/libxkbcommon-1.7.0-r1 abi_x86_32
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/gtk+-3.24.42-r1 abi_x86_32
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=app-accessibility/at-spi2-core-2.52.0 abi_x86_32
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/libepoxy-1.5.10-r3 abi_x86_32
+# required by gnome-base/librsvg-2.58.2::gentoo
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/gdk-pixbuf-2.42.12 abi_x86_32
+# required by x11-libs/gtk+-3.24.42-r1::gentoo[X]
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/libXdamage-1.1.6 abi_x86_32
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=gnome-base/librsvg-2.58.2 abi_x86_32
+# required by x11-libs/gdk-pixbuf-2.42.12::gentoo[tiff]
+# required by gnome-base/librsvg-2.58.2::gentoo
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/tiff-4.6.0-r1 abi_x86_32
+# required by app-accessibility/at-spi2-core-2.52.0::gentoo[X]
+# required by x11-libs/gtk+-3.24.42-r1::gentoo
+# required by gui-libs/libdecor-0.2.2-r1::gentoo[gtk]
+# required by media-libs/libsdl2-2.30.3::gentoo[wayland]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=x11-libs/libXtst-1.2.5 abi_x86_32
+# required by dev-libs/libgcrypt-1.11.0::gentoo
+# required by app-emulation/wine-proton-9.0.2::gentoo
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=dev-libs/libgpg-error-1.50 abi_x86_32
+# required by media-libs/libsdl2-2.30.3::gentoo[opengl]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=virtual/glu-9.0-r2 abi_x86_32
+# required by virtual/glu-9.0-r2::gentoo
+# required by media-libs/libsdl2-2.30.3::gentoo[opengl]
+# required by app-emulation/wine-proton-9.0.2::gentoo[sdl]
+# required by virtual/wine-0-r10::gentoo[proton]
+# required by wine (argument)
+>=media-libs/glu-9.0.3 abi_x86_32

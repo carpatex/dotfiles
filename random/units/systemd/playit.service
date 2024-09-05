@@ -1,0 +1,15 @@
+[Unit]
+Description=playit
+After=network.target
+
+[Service]
+User=playit
+Group=playit
+ExecStart=/srv/playit/bin/playit --secret_path /srv/playit/playit.toml
+WorkingDirectory=/srv/playit
+Restart=always
+RestartSec=3
+Type=simple
+Nice=-20
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,2 @@
+virtual/wine proton
+app-emulation/wine-proton -udisks -udev vkd3d

@@ -1,0 +1,17 @@
+[Unit]
+Description=Minecraft Server
+After=network.target
+
+[Service]
+WorkingDirectory=/srv/minecraft
+User=minecraft
+Group=minecraft
+Type=forking
+ExecStart=/srv/minecraft/bin/startsv.sh
+ExecStop=/srv/minecraft/bin/bellanno.sh
+Restart=always
+RestartSec=3
+Nice=-20
+
+[Install]
+WantedBy=multi-user.target

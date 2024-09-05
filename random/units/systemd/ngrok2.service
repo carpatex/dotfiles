@@ -1,0 +1,17 @@
+[Unit]
+Description=ngrok2
+After=network.target
+
+[Service]
+User=ngrok
+Group=ngrok
+ExecStart=/srv/ngrok/bin/ngrok start --all --config /srv/ngrok/config/ngrok2.yml
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+IgnoreSIGPIPE=true
+Restart=always
+RestartSec=3
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
