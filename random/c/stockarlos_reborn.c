@@ -12,8 +12,8 @@ struct producto {
 int main() {
 	char input_buffer[256];
 	FILE *base_de_datos;
-	int i, opcion;
-	size_t tamano, n_productos;
+	int i, opcion, n_productos;
+	size_t tamano;
 	struct producto *productos_cargados;
 	fputs("Bienvenido a STOCKARLOS REBORN!\n", stdout);
 	base_de_datos = fopen("productos.dat", "r+");
@@ -23,7 +23,7 @@ int main() {
 	}
 	fseek(base_de_datos, 0, SEEK_END);
 	tamano = ftell(base_de_datos);
-	n_productos = tamano / sizeof(struct producto);
+	n_productos = (int) tamano / sizeof(struct producto);
 	if (n_productos) {
 		productos_cargados = (struct producto *) calloc((size_t) n_productos, sizeof(struct producto));
 		if (productos_cargados == NULL) {
@@ -43,6 +43,26 @@ int main() {
 		fgets(input_buffer, 255, stdin);
 		if (sscanf(input_buffer, "%i", &opcion) != 1) {
 			fputs("Error. Se debe introducir un número que sea una opción válida.\n");
+		}
+		switch (opcion) {
+			case 1:
+				if (n_productos) {
+					for (i = 0; i < n_productos; i++) {
+						if( ! *(productos_cargados + (size_t) i)->nombre[0] && ! *(productos_cargados + (size_t) i)->numero) {
+							break;
+							if (i == n_productos - 1) {
+								i = -1;
+							}
+						}
+					}
+					if (i == -1){
+
+					}
+					else {
+
+					}
+				}
+				break;
 		}
 	}
 	fclose(base_de_datos);
