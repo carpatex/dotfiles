@@ -41,30 +41,30 @@ SAVEHIST=$HISTSIZE
 #different prompts and rprompts
 
 #PROMPT="%B%F{green}%n@%m%f%b:%B%F{blue}%~%f%F{cyan}\${vcs_info_msg_0_}%f%(!.%F{red}#%f%b.%b%%) "
-#PROMPT="[%B%F{green}%n@%m%f%b %B%F{blue}%~%f%F{cyan}\${vcs_info_msg_0_}%f%b]%(!.%B%F{red}#%f%b.%%) "
+#PROMPT="[%B%F{green}%n@%m%f%b %B%F{blue}%1~%f%F{cyan}\${vcs_info_msg_0_}%f%b]%(!.%B%F{red}#%f%b.%%) "
 
 #PROMPT="%B%F{green}%n@%m%f%b:%B%F{blue}%~%f%F{cyan}\${vcs_info_msg_0_}%f
 #%(!.%F{red}#%f%b.%b%%) "
-#PROMPT="[%B%F{green}%n@%m%f%b %B%F{blue}%~%f%F{cyan}\${vcs_info_msg_0_}%f%b]
+#PROMPT="[%B%F{green}%n@%m%f%b %B%F{blue}%1~%f%F{cyan}\${vcs_info_msg_0_}%f%b]
 #%(!.%B%F{red}#%f%b.%%) "
 
 #PROMPT="%B%F{green}%n@%m%f%b:%B%F{blue}%~%f%(!.%F{red}#%f%b.%b%%) "
-PROMPT="[%B%F{green}%n@%m%f%b %B%F{blue}%~%f%b]%(!.%B%F{red}#%f%b.%%) "
+PROMPT="[%B%F{green}%n@%m%f%b %B%F{blue}%1~%f%b]%(!.%B%F{red}#%f%b.%%) "
 
 RPROMPT="%B%F{cyan}\${vcs_info_msg_0_}%f%b"
 
 #without colors
 
 #PROMPT="%n@%m:%~\${vcs_info_msg_0_}%(!.#.%%) "
-#PROMPT="[%n@%m %~\${vcs_info_msg_0_}]%(!.#.%%) "
+#PROMPT="[%n@%m %1~\${vcs_info_msg_0_}]%(!.#.%%) "
 
 #PROMPT="%n@%m:%~\${vcs_info_msg_0_}
 #%(!.#.%%) "
-#PROMPT="[%n@%m %~\${vcs_info_msg_0_}]
+#PROMPT="[%n@%m %1~\${vcs_info_msg_0_}]
 #%(!.#.%%) "
 
 #PROMPT="%n@%m:%~%(!.#.%%) "
-#PROMPT="[%n@%m %~]%(!.#.%%) "
+#PROMPT="[%n@%m %1~]%(!.#.%%) "
 
 #RPROMPT="\${vcs_info_msg_0_}"
 
