@@ -48,7 +48,7 @@ int main() {
 			case 1:
 				if (n_productos) {
 					for (i = 0; i < n_productos; i++) {
-						if( ! *(productos_cargados + (size_t) i)->nombre[0] && ! *(productos_cargados + (size_t) i)->numero) {
+						if( ! (productos_cargados + (size_t) i)->nombre[0] && ! (productos_cargados + (size_t) i)->numero) {
 							break;
 							if (i == n_productos - 1) {
 								i = -1;
