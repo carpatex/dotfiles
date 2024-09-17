@@ -1,0 +1,3 @@
+#!/bin/sh -e
+exec 2>&1
+exec chpst -u playit /srv/playit/bin/playit --secret_path /srv/playit/playit.toml

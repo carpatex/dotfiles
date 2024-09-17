@@ -1,0 +1,2 @@
+#!/bin/sh
+exec chpst -u ngrok svlogd -tt /srv/ngrok/logs

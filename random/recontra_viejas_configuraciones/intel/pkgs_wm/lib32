@@ -1,0 +1,1 @@
+lib32-mesa lib32-vulkan-intel lib32-vkd3d lib32-libva lib32-mesa-vdpau lib32-vulkan-mesa-layers lib32-libpulse lib32-sdl lib32-sdl2 lib32-alsa-plugins lib32-pipewire lib32-pipewire-jack lib32-pipewire-v4l2 lib32-portaudio lib32-v4l-utils lib32-fluidsynth lib32-harfbuzz lib32-fontconfig libibus wine wine-mono

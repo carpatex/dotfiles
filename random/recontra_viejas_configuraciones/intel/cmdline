@@ -1,0 +1,1 @@
+root=UUID=XXX rootfstype=ext4 rootflags=rw,noatime rw loglevel=3 nowatchdog mitigations=off audit=0

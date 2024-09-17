@@ -1,0 +1,1 @@
+xorg-server xorg-xinit xorg-xrandr xdg-utils xdg-user-dirs xdotool libxkbcommon mesa vulkan-radeon libva-mesa-driver mesa-vdpau vulkan-tools mesa-utils vkd3d vulkan-validation-layers vulkan-mesa-layers numlockx wayland xorg-xwayland xf86-input-libinput

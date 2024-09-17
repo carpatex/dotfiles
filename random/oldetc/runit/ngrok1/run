@@ -1,0 +1,3 @@
+#!/bin/sh -e
+exec 2>&1
+exec chpst -u ngrok /srv/ngrok/bin/ngrok start --all --config /srv/ngrok/config/ngrok1.yml
