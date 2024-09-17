@@ -22,5 +22,5 @@ magenta = "#ff00ff"
 cyan = "#00ffff"
 white = "#ffffff"
 [font]
-size = 12
-normal = { family = "Noto Sans Mono", style = "Regular" }
+size = 9
+normal = { family = "Noto Sans M Nerd Font", style = "Regular" }
