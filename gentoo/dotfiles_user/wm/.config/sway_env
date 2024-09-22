@@ -1,0 +1,14 @@
+#!/bin/sh
+export XDG_SESSION_TYPE=wayland
+export XKB_DEFAULT_LAYOUT="latam"
+export MOZ_ENABLE_WAYLAND=1
+export SAL_USE_VCLPLUGIN=gtk3
+export _JAVA_AWT_WM_NONREPARENTING=1
+#export QT_QPA_PLATFORM=wayland
+export QT_QPA_PLATFORMTHEME=qt6ct:qt5ct
+export XDG_CURRENT_DESKTOP=sway
+export GTK_THEME=Adwaita:dark
+
+#export BEMENU_BACKEND=wayland
+#export PATH="${HOME}/.local/bin/spaced_bemenu:${PATH}"
+#export BEMENU_OPTS="--fn \"Noto Sans Mono 12\" -H 20 --tb #005577 --hb #005577 --tf #eeeeee --hf #eeeeee --nf #bbbbbb -p """

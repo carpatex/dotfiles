@@ -1,0 +1,1 @@
+app-office/libreoffice clang pgo lto -base -qt5 -qt6 gtk googledrive gstreamer -java cups -coinmp -accessibility -mariadb pdfimport
