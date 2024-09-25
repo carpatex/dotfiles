@@ -53,7 +53,7 @@ media-libs/freetype abi_x86_32
 media-libs/libpng abi_x86_32
 virtual/libintl abi_x86_32
 virtual/libudev abi_x86_32
-sys-apps/systemd-utils abi_x86_32
+sys-apps/systemd abi_x86_32
 sys-libs/libcap abi_x86_32
 sys-libs/pam abi_x86_32
 virtual/libiconv abi_x86_32
