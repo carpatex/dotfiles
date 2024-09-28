@@ -94,3 +94,4 @@ alias ll='ls -Ahls'
 alias grep='grep --color=auto'
 alias less='less -R'
 . /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+. ~/devel/projects/dotfiles/random/mcportable_java_path

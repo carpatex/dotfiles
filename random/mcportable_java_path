@@ -1,0 +1,4 @@
+#!/bin/sh
+#this should be sourced :v
+export JAVA_EXECUTABLE=/usr/lib/jvm/java-8-openjdk/jre/bin/java
+export GAME_USERNAME=carpatex
