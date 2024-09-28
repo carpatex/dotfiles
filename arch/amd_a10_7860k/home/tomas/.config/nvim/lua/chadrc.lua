@@ -6,12 +6,17 @@
 local M = {}
 
 M.base46 = {
-	theme = "chadracula-evondev",
-
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
+	theme = "oxocarbon",
+	changed_themes = {
+		oxocarbon = {
+			base_16 = {
+				base00 = "#000000",
+			},
+			base_30 = {
+				black = "#000000",
+			},
+		},
+	}
 }
 
 return M
