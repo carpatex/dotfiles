@@ -4,3 +4,12 @@
 [submodule "arch/amd_a10_7860k/home/tomas/.config/nvim/pack/nvim/start/cmp-cmdline"]
 	path = arch/amd_a10_7860k/home/tomas/.config/nvim/pack/nvim/start/cmp-cmdline
 	url = https://github.com/hrsh7th/cmp-cmdline
+[submodule "arch/amd_a10_7860k/home/tomas/.config/nvim/pack/nvim/start/cmp-nvim-lsp"]
+	path = arch/amd_a10_7860k/home/tomas/.config/nvim/pack/nvim/start/cmp-nvim-lsp
+	url = https://github.com/hrsh7th/cmp-nvim-lsp
+[submodule "arch/amd_a10_7860k/home/tomas/.config/nvim/pack/nvim/start/cmp-path"]
+	path = arch/amd_a10_7860k/home/tomas/.config/nvim/pack/nvim/start/cmp-path
+	url = https://github.com/hrsh7th/cmp-path
+[submodule "arch/amd_a10_7860k/home/tomas/.config/nvim/pack/nvim/start/nvim-cmp"]
+	path = arch/amd_a10_7860k/home/tomas/.config/nvim/pack/nvim/start/nvim-cmp
+	url = https://github.com/hrsh7th/nvim-cmp
