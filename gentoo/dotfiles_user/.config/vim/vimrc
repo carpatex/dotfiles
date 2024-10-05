@@ -10,23 +10,3 @@ set autoindent
 set smartindent
 syntax on
 set background=dark
-
-call plug#begin()
-" List your plugins here
-Plug 'prabirshrestha/vim-lsp'
-Plug 'mattn/vim-lsp-settings'
-Plug 'prabirshrestha/asyncomplete.vim'
-Plug 'prabirshrestha/asyncomplete-omni.vim'
-Plug 'prabirshrestha/asyncomplete-lsp.vim'
-Plug 'honza/vim-snippets'
-Plug 'garbas/vim-snipmate'
-Plug 'MarcWeber/vim-addon-mw-utils'
-call plug#end()
-autocmd User asyncomplete_setup call asyncomplete#register_source(asyncomplete#sources#omni#get_source_options({
-\ 'name': 'omni',
-\ 'allowlist': ['*'],
-\ 'completor': function('asyncomplete#sources#omni#completor'),
-\ 'config': {
-\   'show_source_kind': 1,
-\ },
-\ }))
