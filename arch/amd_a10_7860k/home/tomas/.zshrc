@@ -49,9 +49,9 @@ SAVEHIST=$HISTSIZE
 #%(!.%B%F{red}#%f%b.%%) "
 
 #PROMPT="%B%F{green}%n@%m%f%b:%B%F{blue}%~%f%(!.%F{red}#%f%b.%b%%) "
-PROMPT="[%B%F{green}%n@%m%f%b %B%F{blue}%1~%f%b]%(!.%B%F{red}#%f%b.%%) "
+#PROMPT="[%B%F{green}%n@%m%f%b %B%F{blue}%1~%f%b]%(!.%B%F{red}#%f%b.%%) "
 
-RPROMPT="%B%F{cyan}\${vcs_info_msg_0_}%f%b"
+#RPROMPT="%B%F{cyan}\${vcs_info_msg_0_}%f%b"
 
 #without colors
 
@@ -64,9 +64,9 @@ RPROMPT="%B%F{cyan}\${vcs_info_msg_0_}%f%b"
 #%(!.#.%%) "
 
 #PROMPT="%n@%m:%~%(!.#.%%) "
-#PROMPT="[%n@%m %1~]%(!.#.%%) "
+PROMPT="[%n@%m %1~]%(!.#.%%) "
 
-#RPROMPT="\${vcs_info_msg_0_}"
+RPROMPT="\${vcs_info_msg_0_}"
 
 
 #aliases
@@ -93,5 +93,5 @@ alias dir='dir --color=auto -hls'
 alias ll='ls -Ahls'
 alias grep='grep --color=auto'
 alias less='less -R'
-. /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#. /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . ~/devel/projects/dotfiles/random/mcportable_java_path
