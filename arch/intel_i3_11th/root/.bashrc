@@ -13,8 +13,8 @@ RED="\[\033[1;31m\]"
 NC="\[\033[0m\]"
 
 #colored prompt without git
-PS1="[${GREEN}\\u@\\h${NC} ${BLUE}\\W${NC}]${RED}\\$ ${NC}"
+#PS1="[${GREEN}\\u@\\h${NC} ${BLUE}\\W${NC}]${RED}\\$ ${NC}"
 
 #default arch prompt
-#PS1="[\\u@\\h \\W]\\$ "
+PS1="[\\u@\\h \\W]\\$ "
 unset NC BLUE GREEN CYAN RED
