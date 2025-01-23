@@ -1,4 +1,5 @@
 #!/bin/sh
 #this should be sourced :v
+export UUID=046ce31624bd49028380ccaf8562b240
 export JAVA_EXECUTABLE=/usr/lib/jvm/java-8-openjdk/jre/bin/java
 export GAME_USERNAME=carpatex
