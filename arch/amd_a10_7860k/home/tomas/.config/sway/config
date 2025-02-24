@@ -23,12 +23,13 @@ set $wallpaper ~/.config/synthwave1.jpg
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | wmenu -f "Noto Sans Mono 9" | xargs swaymsg exec --
+set $menu dmenu_path | wmenu -f "Noto Sans Mono 12" | xargs swaymsg exec --
 
+output HDMI-A-1 res 1920x1080
 output * bg #000000 solid_color
 #output * bg $wallpaper fill
 #output * max_render_time off
-font pango:NotoSansMono 9
+font pango:NotoSansMono 12
 default_border pixel 1
 titlebar_padding 1
 #gaps inner 5
@@ -226,7 +227,7 @@ bindsym $mod+r mode "resize"
 # Read `man 5 sway-bar` for more information about this section.
 bar {
     position top
-    height 18
+    height 24
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
     #status_command $HOME/.local/bin/status.sh
