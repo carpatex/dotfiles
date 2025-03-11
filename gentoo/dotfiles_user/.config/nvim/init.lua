@@ -2,7 +2,7 @@ require("config.lazy")
 
 vim.cmd([[
 filetype indent on
-colorscheme vim
+colorscheme hyper
 set mouse=a 
 set shiftwidth=2
 set cindent shiftwidth=2
