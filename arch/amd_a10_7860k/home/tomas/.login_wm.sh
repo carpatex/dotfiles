@@ -3,7 +3,7 @@ if [ "${CHOSEN_WM}" = "x11" ] && [ -z "${DISPLAY}" ] && [ $(tty) = "/dev/tty1" ]
   unset CHOSEN_WM
 	startx
 fi
-if [ "${CHOSEN_WM}" = "sway" ] && [ -z "${WAYLAND_DISPLAY}" ] && [ $(tty) = "/dev/tty1" ] && [ ! -S /run/user/1000/wayland-1 ]; then
+if [ "${CHOSEN_WM}" = "wayland" ] && [ -z "${WAYLAND_DISPLAY}" ] && [ $(tty) = "/dev/tty1" ] && [ ! -S /run/user/1000/wayland-1 ]; then
 	unset CHOSEN_WM
-	sway
+	startw
 fi
