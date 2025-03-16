@@ -189,7 +189,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
 	height 24
-	position top
-  #status_command $HOME/.local/bin/status.sh
-  status_command i3status
+	position bottom
+  	#status_command $HOME/.local/bin/status.sh
+  	status_command i3status
 }
