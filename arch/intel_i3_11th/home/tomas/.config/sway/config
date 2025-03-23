@@ -16,7 +16,8 @@ set $right l
 # Your preferred terminal emulator
 set $term kitty
 
-set $browser firefox
+set $browser chromium
+#set $browser firefox
 
 set $wallpaper ~/.config/synthwave1.jpg
 #set $wallpaper ~/.config/momo.jpeg
