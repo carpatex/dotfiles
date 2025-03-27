@@ -2,5 +2,5 @@
 . ~/.config/sway_env
 #. ~/.config/dwl_env
 
-#~/.local/bin/status.sh | ~/.local/bin/dwl
+#~/.local/bin/status_loop.sh | ~/.local/bin/dwl
 /usr/bin/sway
