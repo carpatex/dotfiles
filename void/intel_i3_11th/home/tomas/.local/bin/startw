@@ -1,10 +1,8 @@
 #!/bin/sh
-#. ~/.config/sway_env
-. ~/.config/dwl_env
+. ~/.config/sway_env
 
 ~/.local/bin/start_audio.sh
 
-~/.local/bin/status_loop.sh | ~/.local/bin/dwl
-#/usr/bin/sway
+/usr/bin/sway
 
 ~/.local/bin/kill_audio.sh
