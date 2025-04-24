@@ -1,6 +1,3 @@
 #!/bin/sh
 . ~/.config/sway_env
-#. ~/.config/dwl_env
-
-#~/.local/bin/status_loop.sh | ~/.local/bin/dwl
-/usr/bin/sway
+exec /usr/bin/sway
