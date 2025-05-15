@@ -1,0 +1,11 @@
+xrandr -s 1920x1080
+export _JAVA_AWT_WM_NONREPARENTING=1
+export QT_QPA_PLATFORMTHEME=qt6ct
+export TERMINAL=kitty
+export GTK_THEME=Adwaita:dark
+export XDG_SESSION_TYPE=x11
+numlockx &
+[ -f ~/.fehbg ] && . ~/.fehbg
+[ -f ~/.Xresources ] && xrdb ~/.Xresources
+picom -b
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
