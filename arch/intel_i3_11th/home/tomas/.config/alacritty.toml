@@ -1,5 +1,5 @@
 [window]
-opacity = 0.98
+opacity = 0.92
 [colors.primary]
 foreground = "#e5e5e5"
 background = "#000000"
@@ -22,5 +22,5 @@ magenta = "#ff00ff"
 cyan = "#00ffff"
 white = "#ffffff"
 [font]
-size = 14
+size = 12
 normal = { family = "Noto Sans Mono", style = "Regular" }

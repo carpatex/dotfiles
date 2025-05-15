@@ -16,24 +16,25 @@ set $right l
 # Your preferred terminal emulator
 set $term kitty
 
-set $browser chromium
-#set $browser firefox
+#set $browser chromium
+set $browser firefox
 
-set $wallpaper ~/.config/synthwave1.jpg
+#set $wallpaper ~/.config/synthwave1.jpg
 #set $wallpaper ~/.config/momo.jpeg
+set $wallpaper ~/.config/minecraft.jpg
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_path | wmenu -f "Noto Sans Mono 12" | xargs swaymsg exec --
+set $menu dmenu_path | wmenu -f "Noto Sans Mono 11" | xargs swaymsg exec --
 
 output HDMI-A-1 res 1920x1080
-output * bg #000000 solid_color
-#output * bg $wallpaper fill
+#output * bg #000000 solid_color
+output * bg $wallpaper fill
 #output * max_render_time off
-font pango:NotoSansMono 12
+font pango:NotoSansMono 11
 default_border pixel 1
 titlebar_padding 1
-#gaps inner 5
+gaps inner 10
 
 ### Output configuration
 #
