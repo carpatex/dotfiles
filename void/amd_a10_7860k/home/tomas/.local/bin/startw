@@ -1,8 +1,0 @@
-#!/bin/sh
-. ~/.config/sway_env
-
-~/.local/bin/start_audio.sh
-
-/usr/bin/sway
-
-~/.local/bin/kill_audio.sh
