@@ -28,13 +28,13 @@ set $wallpaper ~/.config/minecraft.jpg
 set $menu dmenu_path | wmenu -f "Noto Sans Mono 11" | xargs swaymsg exec --
 
 output HDMI-A-1 res 1920x1080
-#output * bg #000000 solid_color
-output * bg $wallpaper fill
-#output * max_render_time off
+output * bg #000000 solid_color
+#output * bg $wallpaper fill
+output * max_render_time off
 font pango:NotoSansMono 11
 default_border pixel 1
 titlebar_padding 1
-gaps inner 10
+#gaps inner 10
 
 ### Output configuration
 #
