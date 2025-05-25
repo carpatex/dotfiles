@@ -1,2 +1,0 @@
-sys-kernel/linux-firmware -initramfs
-sys-firmware/intel-microcode -initramfs

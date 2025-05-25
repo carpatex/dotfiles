@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Noto Sans Mono:size=12:antialias=true:autohint=true";
+static char *font = "Noto Sans M Nerd Font:size=13:antialias=true:autohint=true";
 //static char *font = "Noto Sans Mono:size=13:antialias=true:autohint=true";
 static int borderpx = 0;
 
@@ -95,7 +95,7 @@ char *termname = "xterm-256color";
 unsigned int tabspaces = 2;
 
 /* bg opacity */
-float alpha = 0.92;
+float alpha = 0.98;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
