@@ -1,2 +1,0 @@
-#!/bin/sh
-exec $(dmenu_path | wmenu -i -f "${WMENU_FONT}")
