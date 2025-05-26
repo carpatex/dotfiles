@@ -1,0 +1,5 @@
+#!/bin/sh
+killall pipewire
+killall wireplumber
+. ~/.config/sway_env
+exec dbus-launch --exit-with-session /usr/bin/sway

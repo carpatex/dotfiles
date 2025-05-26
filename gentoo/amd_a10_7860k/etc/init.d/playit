@@ -1,0 +1,14 @@
+#!/sbin/openrc-run
+# Copyright 2024 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+supervisor=supervise-daemon
+USER=playit
+name="playit daemon"
+description=""
+command_user="${USER}"
+command="/srv/playit/bin/playit"
+command_args="${playit_args} --secret_path /srv/playit/playit.toml"
+
+depend() {
+	use dns
+}

@@ -1,0 +1,1 @@
+media-video/pipewire -flatpak pipewire-alsa dbus v4l extra man alsa jack-sdk sound-server

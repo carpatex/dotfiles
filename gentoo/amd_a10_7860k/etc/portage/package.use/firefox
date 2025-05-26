@@ -1,0 +1,4 @@
+media-libs/libpng apng
+media-libs/libvpx postproc
+x11-base/xorg-server xvfb
+www-client/firefox dbus clang lto pgo hwaccel openh264 pulseaudio system-av1 system-harfbuzz system-jpeg system-icu system-libevent system-png system-libvpx -telemetry system-webp system-python-libs wayland gmp-autoupdate jumbo-build geckodriver l10n_es-AR l10n_es-ES
